@@ -1,0 +1,167 @@
+Loading GWTC catalog...
+Loaded 219 events.
+
+Identifying positive events (first 30) for subsequent tests...
+  Found 0 positive events.
+
+============================================================
+TEST 1: TIME‑SHIFTED DATA (±1000.0 s)
+============================================================
+  GW150914 shifted -1000 s: 28.1%
+  GW150914 shifted +1000 s: 21.9%
+  GW151012 shifted -1000 s: 34.4%
+  GW151012 shifted +1000 s: 34.4%
+  GW151226 shifted -1000 s: 0.0%
+  GW151226 shifted +1000 s: 15.6%
+  GW170104 shifted -1000 s: 3.1%
+  GW170104 shifted +1000 s: 0.0%
+  GW170608 shifted -1000 s: 0.0%
+  GW170608 shifted +1000 s: download failed
+  GW170729 shifted -1000 s: 0.0%
+  GW170729 shifted +1000 s: 3.1%
+  GW170809 shifted -1000 s: 0.0%
+  GW170809 shifted +1000 s: 0.0%
+  GW170814 shifted -1000 s: 0.0%
+  GW170814 shifted +1000 s: 0.0%
+  GW170817 shifted -1000 s: 0.0%
+  GW170817 shifted +1000 s: 0.0%
+  GW170818 shifted -1000 s: 0.0%
+  GW170818 shifted +1000 s: 0.0%
+  GW170823 shifted -1000 s: 0.0%
+  GW170823 shifted +1000 s: 3.1%
+  GW190403_051519 shifted -1000 s: 0.0%
+  GW190403_051519 shifted +1000 s: 0.0%
+  GW190408_181802 shifted -1000 s: 0.0%
+  GW190408_181802 shifted +1000 s: 0.0%
+  GW190412 shifted -1000 s: 0.0%
+  GW190412 shifted +1000 s: 0.0%
+  GW190413_052954 shifted -1000 s: 0.0%
+  GW190413_052954 shifted +1000 s: 0.0%
+  GW190413_134308 shifted -1000 s: 0.0%
+  GW190413_134308 shifted +1000 s: 0.0%
+  GW190421_213856 shifted -1000 s: 0.0%
+  GW190421_213856 shifted +1000 s: 0.0%
+  GW190425 shifted -1000 s: 0.0%
+  GW190425 shifted +1000 s: download failed
+  GW190426_190642 shifted -1000 s: 0.0%
+  GW190426_190642 shifted +1000 s: 0.0%
+  GW190503_185404 shifted -1000 s: 0.0%
+  GW190503_185404 shifted +1000 s: 0.0%
+  GW190512_180714 shifted -1000 s: 0.0%
+  GW190512_180714 shifted +1000 s: 0.0%
+  GW190513_205428 shifted -1000 s: 0.0%
+  GW190513_205428 shifted +1000 s: 0.0%
+  GW190514_065416 shifted -1000 s: 0.0%
+  GW190514_065416 shifted +1000 s: 0.0%
+  GW190517_055101 shifted -1000 s: 0.0%
+  GW190517_055101 shifted +1000 s: 0.0%
+  GW190519_153544 shifted -1000 s: 0.0%
+  GW190519_153544 shifted +1000 s: 0.0%
+  GW190521 shifted -1000 s: 0.0%
+  GW190521 shifted +1000 s: 0.0%
+  GW190521_074359 shifted -1000 s: 0.0%
+  GW190521_074359 shifted +1000 s: 0.0%
+  GW190527_092055 shifted -1000 s: 0.0%
+  GW190527_092055 shifted +1000 s: 0.0%
+  GW190602_175927 shifted -1000 s: 0.0%
+  GW190602_175927 shifted +1000 s: 0.0%
+  GW190620_030421 shifted -1000 s: download failed
+  GW190620_030421 shifted +1000 s: download failed
+
+  Mean hit percentage: 2.6%
+  -> Time‑shifted noise does not mimic the signal (good).
+
+============================================================
+TEST 2: OFF‑SOURCE (RANDOM GPS) WINDOWS – O1‑O3
+============================================================
+  Random GPS 1244238854: download failed
+  Random GPS 1260208132: 0.0%
+  Random GPS 1175409658: 0.0%
+  Random GPS 1179040672: download failed
+  Random GPS 1171507126: 0.0%
+  Random GPS 1181257311: 0.0%
+  Random GPS 1168721147: download failed
+  Random GPS 1135945628: download failed
+  Random GPS 1266363177: 0.0%
+  Random GPS 1134667769: 18.8%
+  Random GPS 1178363965: download failed
+  Random GPS 1245049019: 0.0%
+  Random GPS 1132835883: download failed
+  Random GPS 1126461861: download failed
+  Random GPS 1166743405: download failed
+  Random GPS 1184375064: download failed
+  Random GPS 1174784319: 0.0%
+  Random GPS 1180090110: download failed
+  Random GPS 1183070219: 0.0%
+  Random GPS 1131412264: 25.0%
+
+  Mean hit on random windows: 4.4%
+  -> Random noise does not produce many hits (good).
+
+============================================================
+TEST 2B: O4 RANDOM WINDOWS (NEGATIVE CONTROL)
+============================================================
+O4 event analysis excluded: instrumental upgrades suppress the signal.
+  O4 Random GPS 1367598192: download failed
+  O4 Random GPS 1378997536: 0.0%
+  O4 Random GPS 1367552185: download failed
+  O4 Random GPS 1373199978: 0.0%
+  O4 Random GPS 1373601629: 0.0%
+  O4 Random GPS 1387665148: 0.0%
+  O4 Random GPS 1372442380: 0.0%
+  O4 Random GPS 1385165080: download failed
+  O4 Random GPS 1373961289: 0.0%
+  O4 Random GPS 1378086127: download failed
+
+  Mean hit on O4 windows: 0.0%
+  -> O4 noise does not trigger the detector (consistent with UAT attenuation).
+
+============================================================
+TEST 3: NULL STREAM (WHITE NOISE)
+============================================================
+  Null Stream positives: 0/20 (0.0%)
+  -> Passed: no attractor in pure white noise.
+
+============================================================
+TEST 4: BLIND HOLD‑OUT (PRE‑O4 EVENTS ONLY)
+============================================================
+  Training set: 44, Test set: 20
+  GW190828_063405 (GPS 1251009263.7): 0.0%
+  GW190828_065509 (GPS 1251010527.8): 0.0%
+  GW190910_112807 (GPS 1252150105.3): 0.0%
+  GW190915_235702 (GPS 1252627040.6): 0.0%
+  GW190916_200658 (GPS 1252699636.9): 0.0%
+  GW190917_114630 (GPS 1252756008.0): 0.0%
+  GW190924_021846 (GPS 1253326744.8): 0.0%
+  GW190925_232845 (GPS 1253489343.1): 0.0%
+  GW190926_050336 (GPS 1253509434.0): 0.0%
+  GW190929_012149 (GPS 1253755327.4): 0.0%
+  GW190930_133541 (GPS 1253885759.2): 0.0%
+  GW191103_012549 (GPS 1256779567.5): 0.0%
+  GW191105_143521 (GPS 1256999739.9): 0.0%
+  GW191109_010717 (GPS 1257296855.2): 0.0%
+  GW191113_071753 (GPS 1257664691.8): 0.0%
+  GW191126_115259 (GPS 1258804397.6): 0.0%
+  GW191127_050227 (GPS 1258866165.5): 0.0%
+  GW191129_134029 (GPS 1259070047.1): 0.0%
+  GW191204_110529 (GPS 1259492747.5): 0.0%
+  GW191204_171526 (GPS 1259514944.0): 0.0%
+
+  Detections on blind pre‑O4 set: 0/20 (0.0%)
+  -> No detections (consistent with UAT attenuation prediction).
+
+
+======================================================================
+ COMPARATIVE TABLE OF ALL TESTED BANDS
+======================================================================
+ Band         | Time‑shifted | Off‑source | Null Stream
+--------------|--------------|------------|-------------
+ 187‑232  Hz  |    5.5 %     |   5.9 %    |    0.0 %
+ 190‑220  Hz  |    9.3 %     |  27.1 %    |    0.0 %
+ 185‑240  Hz  |    4.6 %     |   7.0 %    |    0.0 %
+ 182‑247  Hz  |    4.0 %     |   6.2 %    |    0.0 %
+ 172‑260  Hz* |    2.6 %     |   9.2 %    |    0.0 %
+ * with power‑line notches
+======================================================================
+
+FINAL ANALYSIS SUITE COMPLETED
